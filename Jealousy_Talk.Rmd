@@ -60,11 +60,15 @@ No need to extensive notes. References at end of slides.
 ---
 ## Replication crisis.
 
-* Replication Crisis (e.g., Ritchie, 2020)
+* Replication crisis (e.g., Ritchie, 2020)
 
-* Replication should become a routine activity (Zwaan et al. 2018)
+--
 
-* Built upon student project.
+* Replication should become a routine activity (e.g., Zwaan et al. 2018)
+
+--
+
+* Also great teaching tool... .
 
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/PjBejIzN9BwsL8uQ0F/giphy.gif")
@@ -73,15 +77,26 @@ knitr::include_graphics("https://media.giphy.com/media/PjBejIzN9BwsL8uQ0F/giphy.
 ---
 ## Jealousy
 
-* One of the core topics studies by evolutionary psychologists
+* One of the core topics studies by evolutionary psychologists (Buss, 1992)
 
-* Topic which features
+--
 
-* Focus on sex differences... .
+* Topic which features heavily in textbooks (e.g., Buss, 1999, Hampton 2010)
+
+--
+
+* Focus on sex differences... . 
+
+--
+
+* 'Classic finding': gender difference in responses to emotional versus sexual infidelity.
 
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/3orieQ3sBIX58hgw92/giphy.gif")
 ```
+
+???
+Due to asymmetries in cost, evolution has shaped 
 
 ---
 ## Dijkstra & Buunk (1998)
@@ -107,7 +122,7 @@ knitr::include_graphics("https://media.giphy.com/media/3orieQ3sBIX58hgw92/giphy.
 ---
 ## Dijkstra & Buunk (1998): A closer look.
 
-* 152 students completed a vignette study. (Between-subject design)
+* 152 students completed a vignette study. (Between-subject design). **Key outcome**: Jealousy (1-5 rating)
 
 --
 
@@ -121,7 +136,9 @@ knitr::include_graphics("https://media.giphy.com/media/3orieQ3sBIX58hgw92/giphy.
 ---
 ## Dijkstra & Buunk (1998): Dominance manipulation.
 
-_“You find out that your girlfriend is flirting with Jonathan, the man in this photo. Jonathan is a student at \[Name of University where study was conducted] and is about the same age as you. Jonathan is also a teaching assistant and teaches courses to undergraduates. He is also president of a \[Name of University where study was conducted] activities club that numbers about 600 members. Jonathan knows what he wants and is a good judge of character. Jonathan also often takes the initiative to do something new, and he has a lot of influence on other people. At parties, he always livens things up.”_ The low-dominance version read as follows: _“You find out that your girlfriend is flirting with Jonathan, the man in the photo. Jonathan is a student at \[Name of University where study was conducted] and is about the same age as you. Jonathan attends classes regularly and is one of the 600 members of an activities club at \[Name of University where study was conducted]. Jonathan does not always know what he wants, and he often fails to understand what is going on in other people’s minds. Jonathan often waits for others to take the initiative and is rather compliant. At parties, he usually stays in the background.”_
+* _“You find out that your girlfriend is flirting with Jonathan, the man in this photo. Jonathan is a student at \[Name of University where study was conducted] and is about the same age as you. Jonathan is also a teaching assistant and teaches courses to undergraduates. He is also president of a \[Name of University where study was conducted] activities club that numbers about 600 members. Jonathan knows what he wants and is a good judge of character. Jonathan also often takes the initiative to do something new, and he has a lot of influence on other people. At parties, he always livens things up.”_ 
+
+* The low-dominance version read as follows: _“You find out that your girlfriend is flirting with Jonathan, the man in the photo. Jonathan is a student at \[Name of University where study was conducted] and is about the same age as you. Jonathan attends classes regularly and is one of the 600 members of an activities club at \[Name of University where study was conducted]. Jonathan does not always know what he wants, and he often fails to understand what is going on in other people’s minds. Jonathan often waits for others to take the initiative and is rather compliant. At parties, he usually stays in the background.”_
 
 For (heterosexual) women the name and gender of the rival were altered (_"Olivia"_ rather than _"Jonathan"_ (original: 'Hans')).
 
@@ -152,7 +169,7 @@ knitr::include_graphics("dijkstra1998_finding.png")
 ---
 ## Study 1.
 
-* Matched facial stimuli closely on the original ratings. Images from DeBruine (2017).
+* Matched facial stimuli closely on the original ratings. Images from DeBruine & Jones (2017).
 
 --
 
@@ -186,7 +203,7 @@ knitr::include_graphics("dijkstra1998_finding.png")
 
 --
 
-* Run online via Prolific (N=406) and online opportunity sampling (N=52). We merged both samples for analyses (N=456, 278 women).
+* Run online via Prolific (N=404) and online opportunity sampling (N=52). We merged both samples for analyses (N=456, 278 women).
 
 --
 
@@ -210,6 +227,12 @@ Again, additional tests, manipulation checks, preregistration and more informati
 
 * There was also no support for a Gender\*Dominance interaction, *F*(1, 448) = 0.15, *p* = .694, $\eta^2_g$ < .01. 
 
+--
+
+```{r, nothing, out.width = "300px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/efF7tKGHvrUg8/giphy.gif")
+```
+
 ---
 ## Synthesis... 
 
@@ -218,6 +241,8 @@ Again, additional tests, manipulation checks, preregistration and more informati
 knitr::include_graphics("https://media.giphy.com/media/521JLj0YGzz6AEWsZ5/giphy.gif")
 ```
 
+???
+Incidentally combined Study 1 and Study 2 supported the interaction effect between gender and attractiveness.
 
 ---
 ## Meta-analysis strategy.
@@ -268,17 +293,24 @@ knitr::include_graphics("forest_2.png")
 
 Underappreciated, interaction effects requires much larger sample size.
 
+--
+
 Note this is an illustration for a different project. (Continuous scenario, assumptions met)
 
+--
+
 Using 'Simglm' (Lebeau, 2020), set up a simulation: 
+
+--
 
 let's assume $\beta_{3}$ = 0.15 (_Pearson r_ = .2, Peterson & Brown 2005)
 
 Choice of $\beta_{1}$ and $\beta_{2}$ = 0.387 (i.e., $0.15 = 0.387 \times 0.387$).
 
+--
+
 Equation:
 
---
 
 
 $$\hat y = \beta_1x_{1} +  \beta_2x_{2} + \beta_3x_{1}x_{2} + \epsilon$$
@@ -305,14 +337,22 @@ knitr::include_graphics("Interactive_power_curve_medium_int_10.png")
 
 * Glass Half Full?
 
-* Interaction effects require ample statistical power
-
 ```{r, out.width = "300px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/l378fyagYKVuXg2u4/giphy.gif")
 ```
 
+--
+
+* Interaction effects require ample statistical power
+
+--
+
+* More work needed? Study on traits of rivals across social situations.
+
 ---
 ## Any Questions?
+
+Thanks to reviewers, authors for meta-analysis, students, and our participants.
 
 [http://tvpollet.github.io](http://tvpollet.github.io)
 
@@ -323,10 +363,13 @@ knitr::include_graphics("https://media.giphy.com/media/3ohzdRoOp1FUYbtGDu/giphy.
 ```
 
 ```{r, echo=F, warning=F,results='hide'}
+Citet(myBib, "Brookes2004")
 Citet(myBib, "Buss1992")
 Citet(myBib, "Buss1999")
+Citet(myBib, "Buss2000c")
 Citet(myBib, "DeBruine2017")
 Citet(myBib, "Dijkstra1998")
+Citet(myBib, "Langner2010")
 Citet(myBib, "Lebeau2020")
 Citet(myBib, "Peterson2005")
 Citet(myBib, "Pollet2020")
@@ -339,4 +382,18 @@ Citet(myBib, "Zwaan2018")
 
 ```{r, 'refs', results='asis', echo=FALSE, warning=F}
 PrintBibliography(myBib, start=1, end=5)
+```
+
+---
+## More refs 1.
+
+```{r, 'more refs', results='asis', echo=FALSE, warning=F}
+PrintBibliography(myBib, start=6, end=10)
+```
+
+---
+## More refs 2.
+
+```{r, 'more refs 2', results='asis', echo=FALSE, warning=F}
+PrintBibliography(myBib, start=11, end=15)
 ```
