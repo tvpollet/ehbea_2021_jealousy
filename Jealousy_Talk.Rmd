@@ -12,6 +12,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+    includes: 
+      after_body: insert-logo.html
   csl: evolution-and-human-behavior.csl
   bibliography: references.bib
 ---
@@ -35,6 +37,7 @@ myBib <- ReadBib("./myBib.bib", check = F)
 ```
 
 ```{r, xaringan_tile, echo=FALSE, cache=FALSE, warning=F, results='hide', message=F}
+library(xaringanExtra)
 xaringanExtra::use_tile_view()
 ```
 
