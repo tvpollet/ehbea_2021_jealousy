@@ -46,12 +46,13 @@ xaringanExtra::use_tile_view()
 
 * Intro.
 
-* Two replication studies (skimpy on the details) and meta-analyses.
+* Two replication studies (skimpy on the details) and meta-analyses (paper [here](https://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf)).
 
 * (Quick and dirty) Simulation on main and interaction effect and statistical power.
 
 * Summary + further research.
 
+--
 
 ```{r, out.width = "400px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/RHLcOWQ4xqyOKvqzAc/giphy.gif") # image from Giphy on CC-BY.
@@ -227,7 +228,7 @@ Around 75% online / 25% campus
 
 --
 
-Again, additional tests, manipulation checks, preregistration and more information on [OSF](https://osf.io/wd7zv/).  
+Again, additional tests, manipulation checks, preregistration and more information on [OSF](https://osf.io/wd7zv/) or in [paper](https://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf).  
 
 
 ---
@@ -275,19 +276,19 @@ Incidentally combined Study 1 and Study 2 supported the interaction effect betwe
 
 --
 
-5 exclusively heterosexual -- 0 focussed exclusively on non-heterosexual participants; 17 mean age was <26 years, 3 samples mean age  > 26, 2 did not provide participant ages; 15 used student (or majority student) participants and 6 did not (1 unspecified); 4 samples were collected within the USA while the remainder were based outside the USA.
+5 exclusively heterosexual (but others could have done so implicitly) -- 0 focussed exclusively on non-heterosexual participants; 17 mean age was <26 years, 3 samples mean age  > 26, 2 did not provide participant ages; 15 used student (or majority student) participants and 6 did not (1 unspecified); 4 samples were collected within the USA while the remainder were based outside the USA.
 
-More information in the paper or on [OSF](https://osf.io/wd7zv/).
+More information in [the paper](https://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) or on [OSF](https://osf.io/wd7zv/).
 
 ---
-## Meta-analysis: Attraction
+## Meta-analysis: Attractiveness
 
 ```{r, funnel_attr, out.width = "700px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("funnel_attract.png")
 ```
 
 ---
-## Meta-analysis: Attraction
+## Meta-analysis: Attractiveness
 
 ```{r, meta_attr, out.width = "550px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("forest_1.png")
