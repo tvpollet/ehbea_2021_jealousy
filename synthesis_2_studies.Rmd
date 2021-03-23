@@ -1,0 +1,63 @@
+---
+title: "Synthesis of two studies: Attraction"
+author: "Thomas Pollet"
+date: '`r format(Sys.Date())`'
+output: 
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+require(haven)
+require(readxl)
+require(dplyr)
+require(magrittr)
+require(skimr)
+require(psych)
+require(stargazer)
+require(tidyimpute)
+require(tidyr)
+require(sjlabelled)
+require(apaTables)
+require(sjPlot)
+require(sjmisc)
+require(jtools)
+require(sandwich) # Robust estimation.
+require(lmtest)
+require(ggplot2)
+require(ggthemes)
+require(readxl)
+require(esc)
+require(metafor)
+require(meta)
+require(interactions)
+require(rockchalk)
+require(cowplot)
+require(car)
+require(performance)
+```
+
+
+```{r}
+r<-c(.14, .05)
+N<-c(339,456)
+```
+
+Two studies combined still show an effect (albeit at _p_ = .045)
+
+```{r}
+eszcor <- escalc(measure="ZCOR", ri=r, ni=N)
+REmodel_attract <-rma(yi=yi, vi=vi, data=eszcor, method="REML")
+REmodel_attract
+```
+
+# SessionInfo
+
+```{r}
+sessionInfo()
+```
+

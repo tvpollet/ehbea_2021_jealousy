@@ -321,7 +321,7 @@ Underappreciated, interaction effects require much larger sample size (e.g., Bro
 
 --
 
-Note this is an illustration for a different project. (Continuous scenario, assumptions met)
+Note this is an illustration for [a different project](https://psyarxiv.com/bvgxy/). (Continuous scenario, assumptions met)
 
 --
 
