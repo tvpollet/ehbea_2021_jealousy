@@ -92,7 +92,7 @@ Especially when combined with interesting topic.
 
 --
 
-* Focus on sex differences... . 
+* Focus on sex differences,... . 
 
 --
 
@@ -124,7 +124,7 @@ Due to asymmetries in cost, evolution has shaped responses.
 
 --
 
-* Sex difference predicted based on evolutionary theory regarding the relative importance of dominance and attractiveness to men’s and women’s appeal as a romantic partner
+* Sex difference predicted based on evolutionary theory regarding the relative importance of dominance and attractiveness to men’s and women’s appeal as a romantic partner.
 
 ---
 ## Dijkstra & Buunk (1998): A closer look.
@@ -234,7 +234,7 @@ Again, additional tests, manipulation checks, preregistration and more informati
 ---
 ## Study 2: Results
 
-* In line with Study 1, but unlike Dijkstra and Buunk (1998), the proposed 2 x 2 x 2 interaction was not statistically significant, *F*(1, 448) = 0.42, *p* = .518, $\eta^2_g$ < .01.
+* In line with Study 1, but unlike Dijkstra and Buunk (1998), the 2 x 2 x 2 interaction was not statistically significant, *F*(1, 448) = 0.42, *p* = .518, $\eta^2_g$ < .01.
 
 --
 
@@ -344,7 +344,7 @@ $$\hat y = \beta_1x_{1} +  \beta_2x_{2} + \beta_3x_{1}x_{2} + \epsilon$$
 ## Power simulation: Main effect.
 
 
-```{r, main_eff, out.width = "500px", echo=FALSE, fig.align='center'}
+```{r, main_eff, out.width = "600px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("Main_power_curve_medium_int_10.png")
 ```
 
@@ -352,7 +352,7 @@ knitr::include_graphics("Main_power_curve_medium_int_10.png")
 ## Power simulation: Interactive effect
 
 
-```{r, int_eff, out.width = "500px", echo=FALSE, fig.align='center'}
+```{r, int_eff, out.width = "600px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("Interactive_power_curve_medium_int_10.png")
 ```
 
