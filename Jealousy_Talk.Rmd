@@ -48,7 +48,7 @@ xaringanExtra::use_tile_view()
 
 * Two replication studies (skimpy on the details) and meta-analyses (paper [here](https://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf)).
 
-* (Quick and dirty) Simulation on main and interaction effect and statistical power.
+* (Quick and dirty) statistical power simulation on main and interaction effects.
 
 * Summary + further research.
 
@@ -88,7 +88,7 @@ Especially when combined with interesting topic.
 
 --
 
-* Topic which features heavily in textbooks (e.g., Buss, 1999, Hampton 2010)
+* Topic which features heavily in textbooks (e.g., Buss, 1999; Cartwright, 2001)
 
 --
 
@@ -392,10 +392,10 @@ Citet(myBib, "Brookes2004")
 Citet(myBib, "Buss1992")
 Citet(myBib, "Buss1999")
 Citet(myBib, "Buss2000c")
+Citet(myBib, "Cartwright2001")
 Citet(myBib, "Chambers2017")
 Citet(myBib, "DeBruine2017")
 Citet(myBib, "Dijkstra1998")
-Citet(myBib, "Hampton2010")
 Citet(myBib, "Langner2010")
 Citet(myBib, "Lebeau2020")
 Citet(myBib, "Peterson2005")
