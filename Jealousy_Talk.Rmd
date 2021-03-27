@@ -203,7 +203,7 @@ Around 75% online / 25% campus
 ---
 ## Study 1: Results.
 
-* 2 x 2 x 2 interaction (gender * attractiveness * dominance) on ratings of jealousy was not statistically significant (*F*(1, 331) = 0.04, *p* = .849, $\eta^2_g$ < .01). 
+* 2 x 2 x 2 interaction (Gender\*Attractiveness\*Dominance) on ratings of jealousy was not statistically significant (*F*(1, 331) = 0.04, *p* = .849, $\eta^2_g$ < .01). 
 
 --
 
